@@ -18,6 +18,8 @@
   "homepage": "https://github.com/lucas-paulo-pires/elf#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.11"
   }
 }
