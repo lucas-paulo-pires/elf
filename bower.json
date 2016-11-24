@@ -1,0 +1,21 @@
+{
+  "name": "site-elf",
+  "homepage": "https://github.com/lucas-paulo-pires/elf",
+  "authors": [
+    "lucas-paulo-pires <lucaspaulo.pires@gmail.com>"
+  ],
+  "description": "criação-site-da-elf",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
