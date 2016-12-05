@@ -1,0 +1,49 @@
+section.sobre
+	.itens
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		margin: 100px 0
+		text-align: center
+
+		+make-sm-column(10)
+		+make-sm-column-offset(1)
+
+		+breakpoint($tablet)
+			display: block
+
+		[class^="icone-"]
+			width: 120px
+			height: 90px
+			background-color: $azul-claro
+			+border-radius(120px)
+			text-align: center
+			line-height: 120px
+			color: $branco
+			+font-size(75px)
+
+			+breakpoint($tablet)
+				display: inline-block
+				width: 90px
+				height: 75px
+				line-height: 75px
+				+font-size(50px)
+				margin: 45px 0 35
+
+			&.icone-criação
+				+order(1)
+
+			&.icone-Desenvolvimento
+				+order(2)
+
+			&.icone-Manutenção
+				+order(4)
+
+			&.icone-ECommerce
+				+order(5)
+
+			&.icone-Hospedagem
+				+order(6)
+
+			&.icone-Responsividade
+				+order(7)
